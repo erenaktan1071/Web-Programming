@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(44, 55, 91);
+    
+    
+    
+}
+
+
+h1{
+    color: blue;
+    font-size: 30px;
+    text-decoration: line-through;
+}
+p{ 
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+}
+#deneme{
+    color: green;
+    font-size: 20px;
+}
+#deneme2{
+    color: purple;
+    font-size: 20px;
+}
+div.sablon{
+   text-align: center;
+}
+
+h2{
+    text-decoration: overline;
+    color: red;
+    font-size: 30px;
+}
+h3{
+    text-decoration: underline;
+    color: blue;
+    font-size: 25px;
+}
+h2:hover{
+    color: rgb(22, 21, 21);
+    font-size: 30px;
+}
+p.paragraf1{
+    text-transform: uppercase;
+    text-align: center;
+}
+p.paragraf2{
+    text-transform: lowercase;
+    text-align: left;
+}
+p.paragraf3{
+    text-transform: capitalize;
+    text-align: right;
+}
+a{
+    color: rgb(228, 22, 184);
+    text-decoration: none;
+   
+    
+}
+a:hover{
+    color: rgb(22, 21, 21);
+    text-decoration: underline;
+}
