@@ -1,0 +1,1 @@
+document.write("Merhabalar Ders 5'e hoş geldiniz!");

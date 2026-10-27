@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="5.ders.js"></script>
+    <script type="text/javascript">
+        document.write("<br>");
+        document.write("<p1>Selamlar Kral</p1>");
+    </script>
+    <script>
+        var txt1, txt2, sayi1, sayi2,X;
+        txt1="Eren";
+        txt2="Aktan";
+        sayi1=5;
+        sayi2=10;
+        var toplam = sayi1 + sayi2;
+        var fark = sayi2 - sayi1;
+        var txt3 = txt1 + " " + txt2;
+        var mod = sayi2 % sayi1;
+        
+        document.write(txt1 + " " + txt2);
+        document.write("<br>");
+        document.write(toplam);
+        document.write("<br>");
+        document.write(fark);
+        document.write("<br>");
+        document.write(txt3);
+        document.write("<br>");
+        document.write(sayi1 +"in"+sayi2+"a göre  modu: "+mod);
+
+
+        X=5+5;
+        document.write("<br>");
+        document.write(X);
+        X="5"+"5";
+        document.write("<br>");
+        document.write(X);
+        X=5+"5";
+        document.write("<br>");
+        document.write(X);
+        X="5"+5;
+        document.write("<br>");
+        document.write(X);
+        var a=5;
+        var b=10;
+        if(a<b){
+            document.write("<br>");
+            document.write("a b'den küçüktür");
+        }
+        else{
+            document.write("<br>");
+            document.write("a b'den büyüktür");
+        }
+
+        var age=20;
+        if(age<18){
+            document.write("<br>");
+            document.write("Reşit değilsiniz");
+        }
+        else if(age>18 && age<25){
+            document.write("<br>");
+            document.write("Reşit ve üniversite öğrencisisiniz");
+        }
+        else{
+            document.write("<br>");
+            document.write("Reşitsiniz");
+        }
+        var time= new Date().getHours();
+        if(time<10){
+            document.write("<br>");
+            document.write("Günaydın");
+        }
+        else if(time<20){
+            document.write("<br>");
+            document.write("İyi günler");
+        }
+        else{
+            document.write("<br>");
+            document.write("İyi geceler");
+        }
+        switch(time){
+            case 8:
+                document.write("<br>");
+                document.write("Saat 8");
+                break;
+            case 9:
+                document.write("<br>");
+                document.write("Saat 9");
+                break;
+            case 10:
+                document.write("<br>");
+                document.write("Saat 10");
+                break;
+            default:
+                document.write("<br>");
+                document.write("Saat 8 veya 9 değil");
+        }
+        alert("Bu bir uyarı değil tehdit mesajıdır");
+        prompt("Lütfen adınızı giriniz");
+        
+    </script>
+</head>
+
+<body>
+    function (uyarıVer) {
+            alert(uyariVer);
+        }
+        <form>
+            <input type="button" value="uyarı Ver" onclick="uyarıVer('Bu bir uyarıdır')">
+        </form>
+
+    <script type="text/javascript">
+        document.write("<h1>Hello, World!</h1>");
+    </script>
+    <script type="text/javascript">
+        document.write("<h1>Selamlar</h1>");
+    </script>
+</body>
+</html>
